@@ -29,7 +29,7 @@
             <tr class="table-danger">
             <td><?=$Result['Name'];?></td>
             <td><?=$Result['Comment'];?></td>
-            <td> <a href="delete.php?id=<?=$Result['ID'];?>"><button>ลบ</button></a>
+            <td> <a href="delete.php?id=<?=$Result['ID'];?>"><button>ลบ</button>{background-color: #008CBA;}</a>
             <a href="form_edit.php?id=<?=$Result['ID'];?>"><button>แก้ไข</button></a></td>
         </tr>
     <?php 
