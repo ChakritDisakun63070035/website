@@ -16,6 +16,7 @@
     <table class="table">
     <table border="1" style="width: 100%;">
         <tr>
+           <tr class="table-primary">
            <th>Name</th>
            <th>Comment</th>
            <th>Action</th>
