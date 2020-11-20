@@ -13,8 +13,7 @@
 </head>
 <body>
     <div class="container">
-  <h2>Contextual Classes</h2>
-  <p>Contextual classes can be used to color the table, table rows or table cells. The classes that can be used are: .table-primary, .table-success, .table-info, .table-warning, .table-danger, .table-active, .table-secondary, .table-light and .table-dark:</p>
+    <table class="table">
     <table border="1" style="width: 100%;">
         <tr>
            <th>Name</th>
