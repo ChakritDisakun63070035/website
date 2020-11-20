@@ -26,6 +26,7 @@
     while($Result = mysqli_fetch_array($res)){
     ?>
         <tr>
+            <tr class="table-danger">
             <td><?=$Result['Name'];?></td>
             <td><?=$Result['Comment'];?></td>
             <td> <a href="delete.php?id=<?=$Result['ID'];?>"><button>ลบ</button></a>
