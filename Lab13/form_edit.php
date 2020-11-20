@@ -15,8 +15,8 @@
 <body>
     <style>
           body {
-              background-color: #000;
-              color: #eb8c4a;
+              background-color: #878787;
+              color: #FFFFFF;
                }   
      </style>
 <form action = "edit.php" method = "post" id="CommentForm" >
