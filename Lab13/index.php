@@ -36,7 +36,9 @@
     ?>
     
     </table>
-    <a href="form.php"><button>เพิ่ม</button></a>
+    <center>
+        <a href="form.php"><button center>เพิ่ม</button></a>
+    </center>
     <!-- <hr>
     <form action="insert.php" method="post" id="CommentForm">
         Name:<br>
