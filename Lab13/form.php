@@ -7,6 +7,12 @@
   <title>Document</title>
 </head>
 <body>
+      <style>
+          body {
+              background-color: #878787;
+              color: #FFFFFF;
+               }   
+     </style>
 <form action = "insert.php" method = "post" id="CommentForm" >
     Name:<br>
     <input type="text" name = "name" id="idName" placeholder="Enter Name" autocomplete="off"> <br>
