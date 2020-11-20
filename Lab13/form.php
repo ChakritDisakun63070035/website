@@ -9,16 +9,18 @@
 <body>
       <style>
           body {
-              background-color: #878787;
+              background-color: #343a40;
               color: #FFFFFF;
                }   
      </style>
+<center>
 <form action = "insert.php" method = "post" id="CommentForm" >
     Name:<br>
     <input type="text" name = "name" id="idName" placeholder="Enter Name" autocomplete="off"> <br>
     Comment:<br>
     <textarea rows="10" cols="20" name = "comment" id="idComment" placeholder="Enter Comment" autocomplete="off"></textarea><br>  
     <input type="submit" id="commentBtn">
-  </form> 
+  </form>
+<center>
 </body>
 </html>
