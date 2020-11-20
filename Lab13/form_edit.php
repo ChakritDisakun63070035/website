@@ -13,6 +13,12 @@
 </head>
 <center>
 <body>
+    <style>
+          body {
+              background-color: #000;
+              color: #eb8c4a;
+               }   
+     </style>
 <form action = "edit.php" method = "post" id="CommentForm" >
     <input type="hidden" value="<?=$id;?>" name="id">
     Name:<br>
