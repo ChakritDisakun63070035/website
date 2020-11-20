@@ -11,8 +11,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
-<body>
 <center>
+<body>
 <form action = "edit.php" method = "post" id="CommentForm" >
     <input type="hidden" value="<?=$id;?>" name="id">
     Name:<br>
@@ -21,6 +21,6 @@
     <textarea rows="10" cols="20" name = "comment" id="idComment" placeholder="Enter Comment"><?=$Result['Comment'];?></textarea><br>  
     <input type="submit" id="commentBtn">
  </form>
-</center>
 </body>
+</center>
 </html>
