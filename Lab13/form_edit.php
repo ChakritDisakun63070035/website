@@ -12,6 +12,7 @@
   <title>Document</title>
 </head>
 <body>
+<center>
 <form action = "edit.php" method = "post" id="CommentForm" >
     <input type="hidden" value="<?=$id;?>" name="id">
     Name:<br>
@@ -19,6 +20,7 @@
     Comment:<br>
     <textarea rows="10" cols="20" name = "comment" id="idComment" placeholder="Enter Comment"><?=$Result['Comment'];?></textarea><br>  
     <input type="submit" id="commentBtn">
-  </form> 
+ </form>
+</center>
 </body>
 </html>
