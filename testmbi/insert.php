@@ -5,7 +5,8 @@ include "config.inc.php";
 $name = $_POST['name'];
 $height = $_POST['height'];
 $weight = $_POST['weight'];
-$sum = $_POST[$weight/(($height/100)**2)];
+$sum = $weight/(($height/100)**2)
+$sum = $_POST['bmi'];
 
 $sql = "INSERT INTO testbmi (name , height , weight , bmi) VALUES ('$name', '$height', '$weight' , '$sum')";
 
