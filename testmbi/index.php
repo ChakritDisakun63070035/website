@@ -21,7 +21,7 @@
            <th>น้ำหนัก</th>
            <th>ส่วนสูง</th>
            <th>bmi</th>
-           <th>action</th>
+           <th>การจัดการ</th>
         </tr>
      <?php    
     $res = mysqli_query($conn, 'SELECT * FROM testbmi');
@@ -32,7 +32,7 @@
             <td><?=$Result['weight'];?></td>
             <td><?=$Result['height'];?></td>
             <td><?=$Result['bmi'];?></td>
-            <td> <a href="delete.php?id=<?=$Result['ID'];?>"><button style=“backgroud-color: red;”>ลบ</button></a>
+            <td> <a href="delete.php?id=<?=$Result['ID'];?>"><button style=“backgroud-color: red;”>delete</button></a>
         </tr>
     <?php 
     }
