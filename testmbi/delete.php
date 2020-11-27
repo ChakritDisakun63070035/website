@@ -3,7 +3,7 @@
 include "config.inc.php";
 
 $id = $_GET['id'];
-$sql = "DELETE  FROM guestbook WHERE ID = '$id'";
+$sql = "DELETE  FROM testbmi WHERE ID = '$id'";
 
 
 if (mysqli_query($conn, $sql)) {
